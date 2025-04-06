@@ -4,6 +4,11 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  transition: all ease 250ms;
+  -webkit-transition: all ease 250ms;
+  -moz-transition: all ease 250ms;
+  -ms-transition: all ease 250ms;
+  -o-transition: all ease 250ms;
 }
 
 a,
@@ -13,4 +18,8 @@ a:hover,
 a:active {
   color: blue;
   text-decoration: none;
+}
+
+body {
+  font-family: sans-serif;
 }
